@@ -1,0 +1,90 @@
+.face{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #FFD52D;
+    position: relative;
+    
+}
+.eyes{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: absolute;
+    top: 130px;
+    left: 40px;
+}
+
+.eyes .eye
+{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(43, 177, 255);
+    top: 150px;
+    left: 50px;
+}
+.eye .eyeball{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.eyeball .retina{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.midface{
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-around;
+    
+    position: absolute;
+    top: 190px;
+    left: 20px;
+}
+.midface .Cheeks{
+    height: 70px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 38);
+    filter: blur(20px);
+    
+}
+.midface .nose{
+    height: 43px;
+    width: 23px;
+    border-radius: 75%;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 7px;
+
+}
+.mouth{
+    height: 90px;
+    width: 45%;
+    border-radius: 8px 8px 100px 100px;
+    position: absolute;
+    background-color: #B53032;
+    top: 280px;
+    left:109px;
+    overflow: hidden;
+}
+.mouth .toungue{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 100px 20px 20px;
+    position: absolute;
+    background-color: rgb(236, 156, 156);
+    top: 50px;
+    left:38.6px;
+}
